@@ -1,5 +1,7 @@
 # SteerAntennaDish
-A SpaceEngineers ingame Script to track moving or stationary targets
+A SpaceEngineers ingame Script to track moving or stationary targets.
+
+Any combination of routers and hinges can be controlled
 
 Version History:
 
@@ -23,7 +25,7 @@ Version History:
 0.0.2:
  - First draft of rotor control
  - Fixed inconsistent behaviour of version info Display with regards to how long it gets displayed
- - Removed unnesscary dely between script startup and parsing coordinates
+ - Removed unnesscary delay between script startup and coordinate parsing
 
 0.0.1:
- - Initial Implementation of mathematics and calculation for base rotor
+ - Initial implementation of mathematics and calculation for base rotor
