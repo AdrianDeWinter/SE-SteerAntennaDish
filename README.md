@@ -12,7 +12,7 @@ Version History:
  - Rewrote Data structure to enable grouping of blocks into individually targetable groups
  - Modified behaivour close to target orientation, now linearly reduces speed down to minSpeed
  - Moved position broadcast to 10-Tick loop, broadcasting every 100 ticks was insufficient for tracking fast or close targets
- - Added a switch for the broadcasting behaivor to the PB config
+ - Added a switch for the broadcasting behaviour to the PB config
 
 0.0.5:
  - Introduced Antenna Comunication, can track any command block running this script within antenna range
