@@ -1,7 +1,9 @@
 # SteerAntennaDish
 A SpaceEngineers ingame Script to track moving or stationary targets.
 
-Any combination of routers and hinges can be controlled
+Any combination of routers and hinges can be controlled.
+Requires https://github.com/AdrianDeWinter/SE-Utilities
+
 
 Version History:
 
