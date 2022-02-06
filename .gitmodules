@@ -1,0 +1,6 @@
+[submodule "Utilities"]
+	path = Utilities
+	url = https://github.com/AdrianDeWinter/SE-Utilities.git
+[submodule "Commons"]
+	path = Commons
+	url = https://github.com/AdrianDeWinter/SE-Commons.git
