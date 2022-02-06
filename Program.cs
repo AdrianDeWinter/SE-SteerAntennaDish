@@ -18,6 +18,7 @@ using VRage.Game.ObjectBuilders.Definitions;
 using VRageMath;
 using Sandbox.Game.GameSystems;
 using System.Xml;
+using IngameScript;
 
 namespace IngameScript
 {

@@ -5,13 +5,24 @@ VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteerAntennaDish", "SteerAntennaDish.csproj", "{0F833A1F-05C1-405F-B8A5-681194A7ECC0}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Commons", "Commons\Commons.shproj", "{61EBA249-19F3-48B6-A25B-A4CEE90168BA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MathsUtilities", "Utilities\MathsUtilities\MathsUtilities.shproj", "{09BE79A7-A3A1-474A-AEC5-48237B349C80}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PrintUtilities", "Utilities\PrintUtilities\PrintUtilities.shproj", "{AA00A4B7-E585-4422-8970-2259620835BF}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "StringUtilities", "Utilities\StringUtilities\StringUtilities.shproj", "{D8C9715D-0063-4ADB-86B0-475AF9B39192}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Utilities\MathsUtilities\MathsUtilities.projitems*{09be79a7-a3a1-474a-aec5-48237b349c80}*SharedItemsImports = 13
 		Commons\Commons.projitems*{0f833a1f-05c1-405f-b8a5-681194a7ecc0}*SharedItemsImports = 4
-		Utilities\BlockUtilities\BlockUtilities.projitems*{0f833a1f-05c1-405f-b8a5-681194a7ecc0}*SharedItemsImports = 4
 		Utilities\MathsUtilities\MathsUtilities.projitems*{0f833a1f-05c1-405f-b8a5-681194a7ecc0}*SharedItemsImports = 4
 		Utilities\PrintUtilities\PrintUtilities.projitems*{0f833a1f-05c1-405f-b8a5-681194a7ecc0}*SharedItemsImports = 4
 		Utilities\StringUtilities\StringUtilities.projitems*{0f833a1f-05c1-405f-b8a5-681194a7ecc0}*SharedItemsImports = 4
+		Commons\Commons.projitems*{61eba249-19f3-48b6-a25b-a4cee90168ba}*SharedItemsImports = 13
+		Utilities\PrintUtilities\PrintUtilities.projitems*{aa00a4b7-e585-4422-8970-2259620835bf}*SharedItemsImports = 13
+		Utilities\StringUtilities\StringUtilities.projitems*{d8c9715d-0063-4adb-86b0-475af9b39192}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
