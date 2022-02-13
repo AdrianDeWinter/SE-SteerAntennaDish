@@ -24,7 +24,7 @@ namespace IngameScript
 		public enum BlockType { Antenna, Rotor, Hinge, PB };
 
 		public class BlockConfig
-        {
+		{
 			private static readonly MyIni ini = new MyIni();
 
 			public int groupId = 0;
@@ -45,14 +45,14 @@ namespace IngameScript
 			public static string targetString = "trackingTarget";
 			public static string broadcastString = "enableBroadcast";
 			public void Update()
-            {
+			{
 				if (block == null)
 					throw new Exception("Attempted to call Update() on a BlockConfig that does not have an IMyTerminalBlock assigned to it");
 				ParseBlockConfig(this);
-            }
+			}
 
 			public void WriteConfigTemplateAntenna()
-            {
+			{
 				ini.TryParse(block.CustomData);
 
 				string templateString = "[" + configTag + "]\n";
@@ -101,8 +101,8 @@ namespace IngameScript
 				block.CustomData = templateString;
 			}
 
-            public override string ToString()
-            {
+			public override string ToString()
+			{
 				string id = "   Group ID = " + groupId;
 				string type = "   Block Type = " + blockType.ToString();
 				string blockName = "   Block Name : " + block.CustomName;
@@ -110,6 +110,6 @@ namespace IngameScript
 				string angle = "   Configured Normal Angle : " + normalAngle + "°";
 				return "BlockConfig:" + "\n" + id + "\n" + type + "\n" + blockName + "\n" + speed + "\n" + angle + "\n";
 			}
-        }
+		}
 	}
 }
